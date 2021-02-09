@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ridvess resume</title>
+    <link rel="stylesheet" href="../src/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Ridvess</h1>
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav__list__item">
+                        <a href="" class="header__nav__list__item__link">Main</a>
+                    </li>
+                    <li class="header__nav__list__item">
+                        <a href="#about" class="header__nav__list__item__link">About</a>
+                    </li>
+                    <li class="header__nav__list__item">
+                        <a href="" class="header__nav__list__item__link">List</a>
+                    </li>
+                    <li class="header__nav__list__item">
+                        <a href="" class="header__nav__list__item__link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="first__section">
+            <div class="first__section__content">
+                <div class="content__resume__text">
+                    <span>
+                        Hello, my name is Roman Filipenko!
+                        I am a frontend developer from Russia.
+                    </span>
+                </div>
+                <div class="content__resume__img">
+                    <img src="../src/img/avatar_placeholder.png" alt="Photo of a person" class="content__resume__img__src" width="400" height="400">
+                </div>
+            </div>
+        </section>
+
+
+        <main class="second__section">
+            <section class="second__section__about" id="about">
+                <h2 class="section__title">About me</h2>
+                <div class="second__section__about__content">
+                     <span class="second__section__about__text">
+                    I learnt basics of JavaScript and HTML, as well as essentials of bundlers such as: Gulp and Webpack.
+                    I used git for my vcs.
+                     </span>
+                    <span class="second__section__about__text">
+                    I have some knowledge of React, as I used it in couple of my projects.
+                    </span>
+                    <span class="second__section__about__text">
+                    My goals is to build amazing web application.
+                    </span>
+                </div>
+
+<!--                place the binary joke here?-->
+            </section>
+            <section class="second__section__projects">
+                <h2 class="section__title">My projects</h2>
+                    <div class="section__project__list">
+
+                        <a href="https://ridvess.github.io/burgers/" target="_blank" class="section__project__list__item">
+                            <div class="section__project__list__item__img">
+                                <img src="../src/img/burgers.png" width="300" height="150" alt="">
+                            </div>
+                            <div class="section__project__list__item__text">
+                                <h4>Burgers</h4>
+                                <span>Landing about burger shop created as final project of web developer course.</span>
+                            </div>
+
+                        </a>
+
+                        <a href="https://frecognition-smbrain.herokuapp.com/" target="_blank" class="section__project__list__item">
+                            <div class="section__project__list__item__img">
+                                <img src="../src/img/facerecog.png" height="150" width="300"/>
+                            </div>
+
+                            <div class="section__project__list__item__text">
+                                <h4>Face Recognition</h4>
+                                <span>Application written on React. Recognizing faces on the images using API.</span>
+                            </div>
+                        </a>
+                        <a href="https://ridvess.github.io/joke-teller/"  target="_blank" class="section__project__list__item">
+                            <div class="section__project__list__item__img">
+                                <img src="../src/img/joker.png" height="150" width="300" alt="">
+                            </div>
+                            <div class="section__project__list__item__text">
+                                <h4>Joker</h4>
+                                <span>Small project that tells jokes using TTS and joke APIs.</span>
+                            </div>
+                        </a>
+                        <a href="https://ridvess.github.io/RobotFriends/" target="_blank" class="section__project__list__item">
+                            <div class="section__project__list__item__img">
+                                <img src="../src/img/robfre.png" height="150" width="300" alt="">
+                            </div>
+                            <div class="section__project__list__item__text">
+                                <h4>RoboFriends</h4>
+                                <span>Small project written on React to study <i>state</i> element of React.</span>
+                            </div>
+                            </a>
+                        <a href="http://vadyass.pythonanywhere.com/index.html"  target="_blank" class="section__project__list__item">
+                            <div class="section__project__list__item__img">
+                                <img src="../src/img/vadyass.png" height="150" width="300" alt="">
+                            </div>
+                            <div class="section__project__list__item__text">
+                                <h4>Developer page</h4>
+                                <span>Small project written with templates, for a friend.</span>
+                            </div>
+                        </a>
+                    </div>
+            </section>
+
+            <section class="third__section__contacts">
+                <h2 class="section__title">Contact me here!</h2>
+                <div class="section__container">
+                    <form action="POST" class="contact__form">
+                        <input type="text" class="email__input" placeholder="Email">
+                        <input type="text" class="email__subject" placeholder="Subject">
+                        <textarea name="" id="" cols="30" rows="10" class="email__text" placeholder="Enter your message"></textarea>
+                        <button class="email__submit__btn">send</button>
+                    </form>
+                    <ul class="contact__list">
+                        <a href="https://github.com/Ridvess" class="contact__list__item">
+                            <img src="../src/img/github.svg" width="30px"height="30px" class="footer__contact__list__item__icon" alt="">
+                            <p class="contact__list__item__text">
+                                Github
+                            </p>
+                        </a>
+
+                        <li class="contact__list__item">
+                            <img src="../src/img/email.svg" width="30px"height="30px" class="footer__contact__list__item__icon" alt="">
+                            <p class="contact__list__item__text">
+                                E-mail: phillroman24@gmail.com
+                            </p>
+                        </li>
+                        <li class="contact__list__item">
+                            <img src="../src/img/house.svg" width="30px"height="30px" class="footer__contact__list__item__icon" alt="">
+                            <p class="contact__list__item__text">
+                                Based in: Russia, Saint-Petersburg
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
