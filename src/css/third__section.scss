@@ -1,0 +1,30 @@
+.third__section__contacts{
+  display: flex;
+  flex-direction: column;
+}
+.section__container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.download__btn{
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  font-size: 1rem;
+  width: 20%;
+  height: 5vh;
+  color: whitesmoke;
+}
+
+.download__btn:hover{
+  border: #00bcff 4px solid;
+}
+
+.download__btn__link{
+  text-align: center;
+  vertical-align: center;
+
+}

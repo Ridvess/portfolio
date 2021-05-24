@@ -1,0 +1,18 @@
+.first__section__content{
+  display: flex;
+  width: 100%;
+  padding-top: 1% ;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:start;
+}
+
+.content__resume__text{
+  font-size: 3rem;
+  width: 60%;
+}
+
+.content__resume__img__src{
+  height: auto;
+  margin: 15px;
+}

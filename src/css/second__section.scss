@@ -1,0 +1,104 @@
+.second__section__about{
+  display: flex;
+  flex-direction: column;
+}
+
+.second__section__about__content{
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 10px;
+}
+
+.second__section__about__text{
+  text-align: center;
+  font-size: 1.5rem;
+  width: 60%;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  background: rgba(0,0,0, .3);
+  box-shadow: -8px 6px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+.second__section__about__text:nth-child(odd){
+  box-shadow: 8px 6px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.second__section__projects{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__project__list{
+  display: grid;
+  align-items: stretch;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 150px;
+  margin: 10px;
+}
+
+.section__project__list__item{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: #a9a9a9;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  border: rgba(0,0,0, 0) 4px solid;
+  box-shadow: 8px 8px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.section__project__list__item:hover {
+  border-radius: 14px;
+  border: #00bcff 4px solid;
+
+}
+
+.section__project__list__item__img{
+  border-radius: 14px 14px 0 0;
+  font-size: 10px;
+  overflow: hidden;
+}
+
+.section__project__list__item__text{
+  height: 50%;
+  color: black;
+  padding: 0 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__project__list__item__links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.section__project__list__item__links__btn{
+  background: #414141;
+  cursor: pointer;
+  border-radius: 14px;
+  width: 30%;
+  padding: 5px 7px;
+  text-align: center;
+}
+
+.section__project__list__item__links__btn:hover{
+  color: darkorange;
+}
+
+.section__project__list__item__text__content{
+  font-size: 21px;
+}
+

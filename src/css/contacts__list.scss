@@ -1,0 +1,18 @@
+.contact__list{
+  list-style: none;
+  color: whitesmoke;
+}
+
+.contact__list__item{
+  display: flex;
+  align-items: center;
+}
+
+.contact__list__item__icon{
+  width: 40px;
+  height: 40px;
+}
+.contact__list__item__text{
+  margin-left: 2%;
+  white-space: nowrap;
+}

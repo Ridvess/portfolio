@@ -1,0 +1,38 @@
+h1,h2,h3,h4 {
+  margin: 0;
+  padding: 0;
+}
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #414345;  /* #232526 */
+
+
+  color: whitesmoke;
+  font-family: 'JetBrains Mono', monospace;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@import './header';
+@import './section';
+@import './first__section';
+@import './second__section';
+@import './third__section';
+@import './contacts__list';
