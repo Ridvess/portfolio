@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
   \******************************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://portfolio-app/./src/js/animations.js?");
+eval("document.querySelectorAll('a[href^=\"#\"]').forEach(function (anchor) {\n  anchor.addEventListener('click', function (e) {\n    e.preventDefault();\n    document.querySelector(this.getAttribute('href')).scrollIntoView({\n      behavior: 'smooth'\n    });\n  });\n});\n\n//# sourceURL=webpack://portfolio-app/./src/js/animations.js?");
 
 /***/ }),
 
